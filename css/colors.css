@@ -40,10 +40,10 @@
     --bs-light-border-subtle: #495057;
     --bs-dark-border-subtle: #343a40;
     --bs-heading-color: inherit;
-    --bs-link-color: #8d0303;
-    --bs-link-hover-color: #950404;
-    --bs-link-color-rgb: 141, 3, 3;
-    --bs-link-hover-color-rgb: 149, 4, 4;
+    --bs-link-color: #cc1301;
+    --bs-link-hover-color: #eb1515;
+    --bs-link-color-rgb: 204, 19, 1;
+    --bs-link-hover-color-rgb: 235, 21, 21;
     --bs-code-color: #e685b5;
     --bs-highlight-color: #dee2e6;
     --bs-highlight-bg: #664d03;
