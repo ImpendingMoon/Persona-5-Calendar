@@ -15,36 +15,30 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 	<link rel="stylesheet" href="/css/bootstrap.css"/>
 	<link rel="stylesheet" href="/css/colors.css"/>
+	<link rel="stylesheet" href="/css/styles.css"/>
 	<title>Persona 5 Interactive Calendar</title>
 </head>
+
 <body data-bs-theme="persona">
-<div
-	class="bg-image"
-	style="
-		background-image: url(/images/landing-splash.png);
-		height: 100vh;
-		background-position: center;
-		background-size: cover;
-		max-width: 3000px;
-		margin: auto;
-	  "
->
-	<div class="mask" style="background-color: hsla(0, 0%, 0%, 0.6)"></div>
-	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="bg-image landing-image" style="background-image: url(/images/landing-splash.png);">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary fs-5">
 		<div class="container">
-			<a class="navbar-brand" href="/index.html">P5R Calendar</a>
+			<a class="navbar-brand fs-2 fw-bold" href="/index.html">
+				P5R Calendar
+			</a>
 			<button
 				class="navbar-toggler"
 				type="button"
 				data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent"
+				data-bs-target="#navbarContent"
+				aria-controls="navbarContent"
 				aria-expanded="false"
 				aria-label="Toggle navigation"
 			>
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+			<div class="collapse navbar-collapse" id="navbarContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
 						<a
@@ -58,7 +52,7 @@
 						<a class="nav-link" href="#">Calendar</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Social Links</a>
+						<a class="nav-link" href="#">Confidants</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Questions</a>
@@ -69,8 +63,51 @@
 	</nav>
 
 	<div class="container">
-		<h1 class="text-center">This is a website.</h1>
+		<section id="about">
+			<div class="rounded mt-3 overflow-hidden">
+				<h1 class="bg-body-secondary p-3 m-0">About:</h1>
+				<p class="bg-body fs-3 p-3 m-0">
+					This is an online guide for Persona 5 Royal, inspired by
+					LawlietBlack's Persona 4 Golden Guide
+					<a href="https://github.com/Lawlheart/Persona-4-Golden-Guide/" target="_blank">
+						(Which is on&nbsp;Github).
+					</a>
+					<br/>
+					This calendar is not meant to be a 100% guide or walkthrough for the
+					game. The goal is to lay out available options for each day.
+					<br/>
+					This includes: Confidants, Events, Open Places and Shops, Mementos
+					requests, etc.
+					<br/>
+					It also includes Confidant guides, School Question answers, and
+					Crossword answers.
+				</p>
+			</div>
+		</section>
+
+		<section id="credits">
+			<div class="rounded mt-3 overflow-hidden">
+				<h1 class="bg-body-secondary p-3 m-0">Credits:</h1>
+				<p class="fs-3 bg-body p-3 m-0">
+					LawlietBlack for the original idea.
+					<br/>
+					Kal Hawke for their
+					<a href="https://docs.google.com/spreadsheets/d/1JqQfby3FlugOL3n6EEmglYsk9O74xwQlpmBhBnyXk6c/" target="_blank">
+						Persona 5 Royal Calendar Guide spreadsheet</a>.
+					<br/>
+					Underbuffed for the
+					<a href="https://underbuffed.com/persona-5-royal/" target="_blank">
+						Answer guides and Confidant guides</a>.
+					<br/>
+					SamuraiGamers for the
+					<a href="https://samurai-gamers.com/persona-5/confidant-gift-guide/" target="_blank">
+						Confidant Gift guide</a>.
+				</p>
+			</div>
+
+		</section>
 	</div>
+
 
 	<script src="/js/bootstrap.bundle.js"></script>
 </div>

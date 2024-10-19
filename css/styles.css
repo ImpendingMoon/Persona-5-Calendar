@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	font-family: "Arsenal", sans-serif;
+	font-weight: 500;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+.landing-image {
+	min-height: 100vh;
+	height: auto;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+}
+
+/* Handle the background image not scaling properly on small displays */
+@media (max-width: 576px) {
+	.landing-image {
+		background-color: #622b28;
+		background-image: none !important;
+	}
+}
+
+/* Handle shennanigans with super wide displays */
+@media (min-width: 3000px) {
+	body {
+		max-width: 3000px;
+		margin: auto;
+	}
+}
