@@ -15,19 +15,12 @@ h1, h2, h3 {
 	background-position: center;
 	background-size: cover;
 	margin: auto;
-}
-
-/* Handle the background image not scaling properly on small displays */
-@media (max-width: 576px) {
-	.landing-image {
-		background-color: #622b28;
-		background-image: none !important;
-	}
+	padding-bottom: 3%;
 }
 
 /* Handle shennanigans with super wide displays */
 @media (min-width: 3000px) {
-	body {
+	html {
 		max-width: 3000px;
 		margin: auto;
 	}
