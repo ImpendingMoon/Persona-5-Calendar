@@ -7,7 +7,6 @@
 loadNav();
 
 function loadNav() {
-    // Fetch the navbar template
     fetch("/templates/nav.html")
         .then(handleFetchResponse)
         .then(fillNavTemplate)
@@ -45,6 +44,7 @@ function putNavInDocument(navDiv) {
 
 function setActiveNavLinks(navDiv) {
     const navLinks = navDiv.querySelectorAll(".nav-link");
+    // A proper use of an anonymous function!
     navLinks.forEach(navLink => {
         if(isActiveNavLink(navLink)) {
             setActiveNavAttributes(navLink);
