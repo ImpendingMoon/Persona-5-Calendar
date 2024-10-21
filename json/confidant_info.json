@@ -146,6 +146,13 @@
         "profileImagePath": "/images/confidants/icons/sae.webp",
         "cardImagePath": "/images/cards/20_judgement.webp"
     },
+    {
+        "name": "Protagonist",
+        "arcana": "World",
+        "arcanaNumeral": "XXI",
+        "profileImagePath": "/images/confidants/icons/protagonist.webp",
+        "cardImagePath": "/images/cards/21_world.webp"
+    },
 	{
         "name": "Takuto Maruki",
         "arcana": "Councillor",
