@@ -23,7 +23,8 @@ html {
 	margin: auto;
 }
 
-/* NOTE: These cards are a pain to change the size of, and they all must be
+/* 
+ * NOTE: These cards are a pain to change the size of, and they all must be
  * the same size.
  */
  .flip-card-inner {
@@ -40,7 +41,7 @@ html {
  .flip-card-front>img,
  .flip-card-back>img {
 	border-radius: 5px;
-	width: 96px;;
+	width: 96px;
 	height: auto;
 	object-fit: contain;
 }
