@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Igor",
+        "arcana": "Fool",
+        "arcanaNumeral": "0",
+        "profileImagePath": "/images/confidants/icons/igor.webp",
+        "cardImagePath": "/images/cards/0_fool.webp"
+    },
+    {
+        "name": "Morgana",
+        "arcana": "Magician",
+        "arcanaNumeral": "I",
+        "profileImagePath": "/images/confidants/icons/morgana.webp",
+        "cardImagePath": "/images/cards/1_magician.webp"
+    },
+    {
+        "name": "Makoto Niijima",
+        "arcana": "High Priestess",
+        "arcanaNumeral": "II",
+        "profileImagePath": "/images/confidants/icons/makoto.webp",
+        "cardImagePath": "/images/cards/2_high_priestess.webp"
+    },
+    {
+        "name": "Haru Okumura",
+        "arcana": "Empress",
+        "arcanaNumeral": "III",
+        "profileImagePath": "/images/confidants/icons/haru.webp",
+        "cardImagePath": "/images/cards/3_empress.webp"
+    },
+	{
+        "name": "Yusuke Kitagawa",
+        "arcana": "Emperor",
+        "arcanaNumeral": "IV",
+        "profileImagePath": "/images/confidants/icons/yusuke.webp",
+        "cardImagePath": "/images/cards/4_emperor.webp"
+    },
+	{
+        "name": "Sojiro Sakura",
+        "arcana": "Hierophant",
+        "arcanaNumeral": "V",
+        "profileImagePath": "/images/confidants/icons/sojiro.webp",
+        "cardImagePath": "/images/cards/5_hierophant.webp"
+    },
+	{
+        "name": "Ann Takamaki",
+        "arcana": "Lovers",
+        "arcanaNumeral": "VI",
+        "profileImagePath": "/images/confidants/icons/ann.webp",
+        "cardImagePath": "/images/cards/6_lovers.webp"
+    },
+	{
+        "name": "Ryuji Sakamoto",
+        "arcana": "Chariot",
+        "arcanaNumeral": "VII",
+        "profileImagePath": "/images/confidants/icons/ryuji.webp",
+        "cardImagePath": "/images/cards/7_chariot.webp"
+    },
+	{
+        "name": "Goro Akechi",
+        "arcana": "Justice",
+        "arcanaNumeral": "VIII",
+        "profileImagePath": "/images/confidants/icons/akechi.webp",
+        "cardImagePath": "/images/cards/8_justice.webp"
+    },
+	{
+        "name": "Futaba Sakura",
+        "arcana": "Hermit",
+        "arcanaNumeral": "IX",
+        "profileImagePath": "/images/confidants/icons/futaba.webp",
+        "cardImagePath": "/images/cards/9_hermit.webp"
+    },
+	{
+        "name": "Chihaya Mifune",
+        "arcana": "Fortune",
+        "arcanaNumeral": "X",
+        "profileImagePath": "/images/confidants/icons/chihaya.webp",
+        "cardImagePath": "/images/cards/10_fortune.webp"
+    },
+	{
+        "name": "Caroline and Justine",
+        "arcana": "Strength",
+        "arcanaNumeral": "XI",
+        "profileImagePath": "/images/confidants/icons/caroline_justine.webp",
+        "cardImagePath": "/images/cards/11_strength.webp"
+    },
+	{
+        "name": "Munehisa Iwai",
+        "arcana": "Hanged-Man",
+        "arcanaNumeral": "XII",
+        "profileImagePath": "/images/confidants/icons/iwai.webp",
+        "cardImagePath": "/images/cards/12_hanged_man.webp"
+    },
+	{
+        "name": "Tae Takemi",
+        "arcana": "Death",
+        "arcanaNumeral": "XIII",
+        "profileImagePath": "/images/confidants/icons/takemi.webp",
+        "cardImagePath": "/images/cards/13_death.webp"
+    },
+	{
+        "name": "Sadayo Kawakami",
+        "arcana": "Temperance",
+        "arcanaNumeral": "XIV",
+        "profileImagePath": "/images/confidants/icons/kawakami.webp",
+        "cardImagePath": "/images/cards/14_temperance.webp"
+    },
+	{
+        "name": "Ichiko Ohya",
+        "arcana": "Devil",
+        "arcanaNumeral": "XV",
+        "profileImagePath": "/images/confidants/icons/ohya.webp",
+        "cardImagePath": "/images/cards/15_devil.webp"
+    },
+	{
+        "name": "Shinya Oda",
+        "arcana": "Tower",
+        "arcanaNumeral": "XVI",
+        "profileImagePath": "/images/confidants/icons/shinya.webp",
+        "cardImagePath": "/images/cards/16_tower.webp"
+    },
+	{
+        "name": "Hifumi Togo",
+        "arcana": "Star",
+        "arcanaNumeral": "XVII",
+        "profileImagePath": "/images/confidants/icons/hifumi.webp",
+        "cardImagePath": "/images/cards/17_star.webp"
+    },
+	{
+        "name": "Yuuki Mishima",
+        "arcana": "Moon",
+        "arcanaNumeral": "XVIII",
+        "profileImagePath": "/images/confidants/icons/mishima.webp",
+        "cardImagePath": "/images/cards/18_moon.webp"
+    },
+	{
+        "name": "Toranosuke Yoshida",
+        "arcana": "Sun",
+        "arcanaNumeral": "XIX",
+        "profileImagePath": "/images/confidants/icons/yoshida.webp",
+        "cardImagePath": "/images/cards/19_sun.webp"
+    },
+	{
+        "name": "Sae Niijima",
+        "arcana": "Judgement",
+        "arcanaNumeral": "XX",
+        "profileImagePath": "/images/confidants/icons/sae.webp",
+        "cardImagePath": "/images/cards/20_judgement.webp"
+    },
+	{
+        "name": "Takuto Maruki",
+        "arcana": "Councillor",
+        "arcanaNumeral": "I",
+        "profileImagePath": "/images/confidants/icons/maruki.webp",
+        "cardImagePath": "/images/cards/24_councillor.webp"
+    },
+	{
+        "name": "Kasumi Yoshizawa",
+        "arcana": "Faith",
+        "arcanaNumeral": "?",
+        "profileImagePath": "/images/confidants/icons/kasumi.webp",
+        "cardImagePath": "/images/cards/23_faith.webp"
+    }
+]

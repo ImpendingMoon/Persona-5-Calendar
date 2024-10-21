@@ -7,44 +7,26 @@
 
 loadConfidantCards();
 
-
-
 async function loadConfidantCards() {
-	const response = await fetch("/templates/confidant_card.html");
+	let response = await fetch("/templates/confidant_card.html");
 	const templateHTML = await response.text();
+	response = await fetch("/json/confidant_info.json");
+	const confidantInfo = await response.json();
 
 	// TODO: Make loop for all confidants
 	const allCardDivs = [];
 
-	let cardDiv = createConfidantCard(
-		templateHTML,
-		"Morgana",
-		"Magician",
-		"I",
-		"/images/confidants/icons/morgana.webp",
-		"/images/cards/1_magician.webp"
-	);
-	allCardDivs.push(cardDiv);
-
-	cardDiv = createConfidantCard(
-		templateHTML,
-		"Ann Takamaki",
-		"Lovers",
-		"VI",
-		"/images/confidants/icons/ann.webp",
-		"/images/cards/6_lovers.webp"
-	);
-	allCardDivs.push(cardDiv);
-
-	cardDiv = createConfidantCard(
-		templateHTML,
-		"Ryuji Sakamoto",
-		"Chariot",
-		"VII",
-		"/images/confidants/icons/ryuji.webp",
-		"/images/cards/7_chariot.webp"
-	);
-	allCardDivs.push(cardDiv);
+	confidantInfo.forEach(confidant => {
+		let cardDiv = createConfidantCard(
+			templateHTML,
+			confidant.name,
+			confidant.arcana,
+			confidant.arcanaNumeral,
+			confidant.profileImagePath,
+			confidant.cardImagePath
+		);
+		allCardDivs.push(cardDiv);
+	});
 
 	putCardsInDocument(allCardDivs);
 }
