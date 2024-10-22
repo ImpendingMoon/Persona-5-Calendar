@@ -27,107 +27,22 @@
       <div id="navContainer"></div>
 
       <div class="container">
-        <!-- Persona 5 Calendar Layout:
-					20XX
-			April   May      June
-			July    August   September
-			October November December
-					20XY
-			January 
-
-			I am absolutely going to programatically generate the links for each
-			day because entering them in manually would be hell
-		-->
-        <div class="row align-items-center text-center">
+        <div class="row align-items-center">
           <div class="col">
-            <h1 class="m-0 p-0">20XX</h1>
+            <h1 class="m-0 p-0 text-center">20XX</h1>
           </div>
         </div>
 
-        <div class="row text-center">
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">April</h2>
-              <div class="bg-body p-1 m-0" id="aprilCalendarContainer"></div>
-            </div>
-          </div>
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">May</h2>
-              <div class="bg-body p-1 m-0" id="mayCalendarContainer"></div>
-            </div>
-          </div>
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">June</h2>
-              <div class="bg-body p-1 m-0" id="juneCalendarContainer"></div>
-            </div>
-          </div>
-        </div>
+        <div class="row" id="20XXContainer"></div>
 
-        <div class="row text-center">
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">July</h2>
-              <div class="bg-body p-1 m-0" id="julyCalendarContainer"></div>
-            </div>
-          </div>
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">August</h2>
-              <div class="bg-body p-1 m-0" id="augustCalendarContainer"></div>
-            </div>
-          </div>
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">September</h2>
-              <div
-                class="bg-body p-1 m-0"
-                id="septemberCalendarContainer"
-              ></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row text-center">
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">October</h2>
-              <div class="bg-body p-1 m-0" id="octoberlCalendarContainer"></div>
-            </div>
-          </div>
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">November</h2>
-              <div class="bg-body p-1 m-0" id="novemberCalendarContainer"></div>
-            </div>
-          </div>
-          <div class="col col-12 col-md-4">
-            <div class="rounded mt-3 overflow-hidden">
-              <h2 class="bg-body-secondary p-1 m-0">December</h2>
-              <div class="bg-body p-1 m-0" id="decemberCalendarContainer"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row align-items-center text-center">
+        <div class="row align-items-center">
           <div class="col">
             <!-- FIXME: What the hell is this year called in-game? -->
-            <h1 class="m-0 p-0">20XX+1</h1>
-          </div>
-
-          <div class="row text-center">
-            <div class="col col-12 col-md-4 offset-md-4 offset-lg-4">
-              <div class="rounded mt-3 overflow-hidden">
-                <h2 class="bg-body-secondary p-1 m-0">January</h2>
-                <div
-                  class="bg-body p-1 m-0"
-                  id="januaryCalendarContainer"
-                ></div>
-              </div>
-            </div>
+            <h1 class="m-0 p-0 text-center">20XX+1</h1>
           </div>
         </div>
+
+        <div class="row" id="20XYContainer"></div>
       </div>
     </div>
 
