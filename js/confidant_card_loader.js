@@ -74,7 +74,7 @@ function setCardArcana(cardDiv, arcana, arcanaNumeral) {
 
 function setCardAnchorHref(cardDiv, arcana) {
 	const pageAnchor = cardDiv.querySelector("#confidantPageAnchor");
-	pageAnchor.setAttribute("href", "/confidants/confidant.html?" + arcana.toLowerCase());
+	pageAnchor.setAttribute("href", "/confidants/confidant.html?arcana=" + arcana.toLowerCase());
 	pageAnchor.removeAttribute("id"); // Prevent future ID conflicts
 }
 

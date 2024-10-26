@@ -99,7 +99,7 @@ const month = [
 	},
 ];
 
-loadCalendarOverview();
+loadCalendarOverview().catch(console.error);
 
 async function loadCalendarOverview() {
 	let response = await fetch("/templates/calendar_month.html");
@@ -217,7 +217,7 @@ function createActiveDayCol(month, day) {
 
 	dayAnchor.innerHTML = day;
 	dayAnchor.classList.add("btn-link");
-	dayAnchor.href = "/calendar/day.html?" + month.number + "-" + day;
+	dayAnchor.href = "/calendar/day.html?day=" + month.number + "-" + day;
 
 	dayDiv.appendChild(dayAnchor);
 
