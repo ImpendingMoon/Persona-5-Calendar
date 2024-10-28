@@ -18,6 +18,15 @@ h1, h2, h3 {
 	padding-bottom: 3%;
 }
 
+.half-image {
+	min-height: 40vh;
+	height: auto;
+	background-position: center top;
+	background-size: cover;
+	margin: auto;
+	padding-bottom: 3%;
+}
+
 html {
 	max-width: 3000px;
 	margin: auto;
