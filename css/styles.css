@@ -27,6 +27,15 @@ h1, h2, h3 {
 	padding-bottom: 3%;
 }
 
+.confidant-bg-image {
+	min-height: 100vh;
+	height: auto;
+	background-position: center right;
+	background-size: cover;
+	margin: auto;
+	padding-bottom: 3%;
+}
+
 html {
 	max-width: 3000px;
 	margin: auto;
