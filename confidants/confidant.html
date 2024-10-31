@@ -1,28 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="
 		width=device-width,
 		user-scalable=no,
 		initial-scale=1.0,
 		maximum-scale=1.0,
 		minimum-scale=1.0
 	  "
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="/css/bootstrap.css" />
-    <link rel="stylesheet" href="/css/colors.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <title>Persona 5 Royal Interactive Calendar</title>
-  </head>
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="/css/bootstrap.css" />
+		<link rel="stylesheet" href="/css/colors.css" />
+		<link rel="stylesheet" href="/css/styles.css" />
+		<title>Persona 5 Royal Interactive Calendar</title>
+	</head>
 
-  <body data-bs-theme="persona">
-    <div id="navContainer"></div>
+	<body data-bs-theme="persona">
+		<div class="bg-image landing-image" style="background-image: url(/images/mementos.webp)">
+			<div id="navContainer"></div>
 
-    <script src="/js/navloader.js"></script>
-    <script src="/js/bootstrap.bundle.js"></script>
-  </body>
+			<div id="confidantInfoContainer" class="container bg-body rounded mt-3">
+				<div class="row p-3 justify-content-center" id="confidantInfoRow">
+					<div class="col-12 col-md order-md-1">
+						<div class="row text-center text-md-start">
+							<h1 id="confidantNameHeader">Ann Takamaki</h1>
+						</div>
+						<div class="row text-center text-md-start">
+							<p id="confidantArcanaText" class="fs-1 my-0">VI: Lovers</p>
+						</div>
+						<div class="row text-center text-md-start">
+							<p id="unlocksOnText" class="fs-3 my-0">Unlocks On: April 24</p>
+						</div>
+						<div class="row text-center text-md-start">
+							<p id="foundAtText" class="fs-3 my-0">Found At: Shibuya</p>
+						</div>
+					</div>
+					<div class="col-auto order-md-0 p-2 px-md-0">
+						<img
+							class="rounded"
+							id="confidantPortraitImage"
+							src="/images/confidants/icons/ann.webp"
+							alt=""
+						/>
+					</div>
+					<div class="col-auto order-md-2 p-2 px-md-0">
+						<img
+							class="rounded"
+							id="confidantCardImage"
+							src="/images/cards/6_lovers.webp"
+							alt=""
+							style="height: 192px"
+						/>
+					</div>
+				</div>
+			</div>
+
+			<div id="confidantRankInfoContainer" class="container mt-3">
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank1Collapse"
+						aria-expanded="false"
+						aria-controls="rank1Collapse"
+					>
+						Rank 1
+					</button>
+					<div class="collapse fs-4" id="rank1Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank2Collapse"
+						aria-expanded="false"
+						aria-controls="rank2Collapse"
+					>
+						Rank 2
+					</button>
+					<div class="collapse fs-4" id="rank2Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank3Collapse"
+						aria-expanded="false"
+						aria-controls="rank3Collapse"
+					>
+						Rank 3
+					</button>
+					<div class="collapse fs-4" id="rank3Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank4Collapse"
+						aria-expanded="false"
+						aria-controls="rank4Collapse"
+					>
+						Rank 4
+					</button>
+					<div class="collapse fs-4" id="rank4Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank5Collapse"
+						aria-expanded="false"
+						aria-controls="rank5Collapse"
+					>
+						Rank 5
+					</button>
+					<div class="collapse fs-4" id="rank5Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank6Collapse"
+						aria-expanded="false"
+						aria-controls="rank6Collapse"
+					>
+						Rank 6
+					</button>
+					<div class="collapse fs-4" id="rank6Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank7Collapse"
+						aria-expanded="false"
+						aria-controls="rank7Collapse"
+					>
+						Rank 7
+					</button>
+					<div class="collapse fs-4" id="rank7Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank8Collapse"
+						aria-expanded="false"
+						aria-controls="rank8Collapse"
+					>
+						Rank 8
+					</button>
+					<div class="collapse fs-4" id="rank8Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank9Collapse"
+						aria-expanded="false"
+						aria-controls="rank9Collapse"
+					>
+						Rank 9
+					</button>
+					<div class="collapse fs-4" id="rank9Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank10Collapse"
+						aria-expanded="false"
+						aria-controls="rank10Collapse"
+					>
+						Rank 10
+					</button>
+					<div class="collapse fs-4" id="rank10Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<button
+						class="btn btn-lg bg-body-secondary fs-3"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#rank11Collapse"
+						aria-expanded="false"
+						aria-controls="rank11Collapse"
+					>
+						Rank 10 (Lovers)
+					</button>
+					<div class="collapse fs-4" id="rank11Collapse">
+						<div class="card card-body">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rem magni vero fugiat
+							dolores! Corrupti rem natus accusamus ratione quod modi pariatur, quis numquam provident
+							consectetur iure assumenda earum. Optio!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="/js/navloader.js"></script>
+		<script src="/js/bootstrap.bundle.js"></script>
+	</body>
+
+	<footer class="bg-body-tertiary">
+		<div class="container">
+			<div class="p-4">
+				Code and Design: &copy; 2024 ImpendingMoon
+				<br />
+				Game and Images: &copy; ATLUS
+			</div>
+		</div>
+	</footer>
 </html>
