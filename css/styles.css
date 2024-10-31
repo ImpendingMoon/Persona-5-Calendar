@@ -36,6 +36,11 @@ h1, h2, h3 {
 	padding-bottom: 3%;
 }
 
+.confidant-icon-image {
+	width: 10rem;
+	height: auto;
+}
+
 html {
 	max-width: 3000px;
 	margin: auto;
